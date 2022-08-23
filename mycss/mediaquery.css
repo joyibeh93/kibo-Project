@@ -1,0 +1,186 @@
+/* This is for bigger screen  size between 1000 and above */
+
+@media screen and (min-width: 999px) {
+    .video {
+        margin: 2% 0;
+    }
+    iframe {
+        width: 800px;
+        height: 415px;
+    }
+}
+
+
+/* This is for smaller screen size between 9000 and below */
+
+@media screen and (max-width: 900px) {
+    nav .nav-link {
+        text-align: left;
+        white-space: nowrap;
+    }
+    ul li {
+        margin-left: 10px;
+        text-align: left;
+        white-space: nowrap;
+    }
+    .header-image {
+        height: 50vh;
+        width: 100vw;
+    }
+    .header-text {
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        width: 50%;
+    }
+    .customer-reviews {
+        width: 40%;
+    }
+    .customer-reviews p {
+        margin-top: 10%;
+    }
+    ul li {
+        margin-left: 30px;
+        text-align: left;
+    }
+    header h2 {
+        width: 40%;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 835px) {
+    nav .nav-link {
+        text-align: left;
+        white-space: nowrap;
+    }
+    ul li {
+        margin-left: 10px;
+        text-align: left;
+        white-space: nowrap;
+    }
+    .header-image {
+        height: 50vh;
+        width: 100vw;
+    }
+    .header-text {
+        position: absolute;
+        top: 10%;
+        left: 20%;
+        width: 50%;
+    }
+    /* .backery-items {
+        height: 50vh;
+    } */
+    .backery-items {
+        width: 100%;
+        height: 100vh;
+    }
+    .backery-item-container {
+        display: block;
+        height: 80%;
+    }
+    .backery-item {
+        width: 80%;
+    }
+    .backery-item img {
+        width: 80%;
+        height: 80%;
+        border-radius: 0%;
+    }
+    .backery-item,
+    .h2 {
+        padding-top: 10px;
+    }
+    /* .header-text h1 {
+        font-size: 80%;
+        font-weight: 300;
+        text-align: justify;
+        word-spacing: 2px;
+        margin-top: 40px;
+    } */
+    .h1 {
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 790px) {
+    header {
+        width: 100vw;
+        height: 30vh;
+        display: in-block;
+    }
+    .header-text {
+        width: 100%;
+    }
+    .nav-link li {
+        display: block;
+        text-align: right;
+        margin-left: 50px;
+        padding: 2px;
+    }
+    .header-image {
+        height: 70vh;
+        width: 100vw;
+    }
+    .header-text h1 {
+        margin-top: 40px;
+        color: #ffffff;
+        font-size: 100%;
+    }
+    .h1 {
+        font-weight: 700;
+    }
+    .backery-items {
+        width: 100%;
+        height: 110vh;
+    }
+    .backery-item-container {
+        display: block;
+        height: 80%;
+    }
+    .backery-item {
+        width: 80%;
+    }
+    .backery-item img {
+        width: 80%;
+        height: 80%;
+        border-radius: 0%;
+    }
+    .backery-item,
+    .h2 {
+        padding-top: 10px;
+    }
+    .video {
+        margin-right: 20px;
+        width: 40%;
+    }
+    iframe {
+        width: 400px;
+        height: 200px;
+    }
+    .contact-customer-Reviews {
+        display: block;
+        margin: 10px;
+    }
+    .contact-form {
+        width: 80%;
+        padding: 5px;
+        margin: 0 auto;
+    }
+    .customer-reviews {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .customer-reviews p {
+        float: right;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    /* .backery-item-container {
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    margin: 0 auto;
+} */
+}

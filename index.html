@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vendour/css/normalise.css" />
+    <link rel="stylesheet" href="./mycss/stylesheet.css" />
+    <link rel="stylesheet" href="./mycss/mediaquery.css">
+    <title>Assignment Bit Degree</title>
+</head>
+<script>
+    function myFunction() {
+        var x = document.getElementById('myInput');
+        if (x.type === 'password') {
+            x.type = 'text';
+        } else {
+            x.type = 'password';
+        }
+    }
+</script>
+
+<body>
+    <header>
+        <h2>weebly bakery</h2>
+        <nav>
+            <ul class="nav-link">
+                <li><a href=" # ">Home</a></li>
+                <li><a href=" #About ">About</a></li>
+                <li><a href=" #History">History</a></li>
+                <li><a href=" #contact ">contact</a></li>
+                <li><a href=" #contact ">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="header-image">
+        <div class="bgimage"></div>
+
+        <div class="header-text">
+            <h1>
+                <span class="h1">weebly bakery</span> are known for their family connections between them and their the Customer. A place where customers are treated as family and one with no discrimination
+            </h1>
+        </div>
+    </section>
+    <section class="backery-items" id="About">
+        <h2 class="h2">Backery item</h2>
+        <div class="backery-item-container">
+            <div class="backery-item">
+                <figcaption>
+                    <img src="./images/image3.jpg" alt="cake" />
+                </figcaption>
+            </div>
+            <div class="backery-item">
+                <figcaption>
+                    <img src="./images/image 1.jpg" alt="cupcake" />
+                </figcaption>
+            </div>
+            <div class="backery-item">
+                <figcaption>
+                    <img src="./images/image 2.jpg" alt="doughnut" />
+                </figcaption>
+            </div>
+        </div>
+    </section>
+    <section class="history-info" id="History">
+        <h2 class="h2">history</h2>
+        <div class="information">
+            <div class="information1">
+                <p>
+                    The Weebly has been providing Service right from ages to various industries and has trained more proffessionals providing Baked goods have been around for thousands of years. The art of baking was developed early during the Roman Empire. It was a highly
+                    famous art as Roman citizens loved baked goods and demanded for them frequently for important occasions such as feasts and weddings etc. Due to the fame and desire that the art of baking received, around 300 BC, baking was introduced
+                    as an occupation and respectable profession for Romans.
+                </p>
+            </div>
+            <div class="information1">
+                <ol>
+                    <li>Good Flavoured snacks</li>
+                    <li>Unique Taste</li>
+                    <li>Best Chefs in Town</li>
+                    <li>Best Services</li>
+                </ol>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/Ty227gZH55w " title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+
+            </div>
+        </div>
+    </section>
+    <!-- CUSTOMER REVIEWS SECTIONS -->
+    <section class="contact-customer-Reviews" id="contact">
+        <div class="customer-contact">
+            <div class="contact-form">
+                <form>
+                    <label for="name">Name:</label><br />
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required autofocus /><br />
+                    <label for="email">Email:</label><br />
+                    <input type="email" id="email" name="email" placeholder="Enter your email-address" required /><br />
+                    <label for="password">Password:</label><br />
+                    <input type="password" id="myInput" value="" placeholder="Enter your password" required /><br />
+                    <input type="checkbox" onclick="myFunction()" />Show Password
+                    <br />
+                    <label for="gender">Gender</label><br />
+                    <input type="radio" id="female" value="Female" name="Gender" />
+                    <label for="female">Female</label><br />
+
+                    <input type="radio" id="male" value="Male" name="Gender" />
+                    <label for="male">Male</label><br />
+                    <label for="types">Types of snacks or cakes needed </label
+                        ><br />
+                        <input
+                            type="checkbox"
+                            id="cake"
+                            name="cake"
+                            values="snacks"
+                        />
+                        <label for="cake">CAKE</label><br />
+                    <input type="checkbox" id="doughnut" name="dougnnut" values="snacks" />
+                    <label for="doughnut">DOUGHNUT</label><br />
+                    <input type="checkbox" id="cupcake" name="cupcake" values="snacks" />
+                    <label for="cupcake">CUPCAKE</label><br />
+                    <label for="button"></label><br />
+                    <input type="button" value="order" name="order" />
+                </form>
+            </div>
+            <div class="customer-reviews">
+                <img src="./images/bakery-treats.jpg" alt="tesimony" class="image" />
+                <p>
+                    for more than thirty years since i was a child we have buying from the the weebly backery, which has proven to be trusted and taste delicious
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+    <footer>
+        <div>
+            <ul>
+                <li><a href=" # ">Home</a></li>
+                <li><a href=" #About ">About</a></li>
+                <li><a href=" #History">History</a></li>
+                <li><a href=" # ">contact</a></li>
+                <li><a href=" # ">Reviews</a></li>
+            </ul>
+        </div>
+        <div>
+            <p>follow us at</p>
+            <ul>
+                <li><a href=" # ">facebook</a></li>
+                <li><a href=" #">Instalgram</a></li>
+                <li><a href=" #">LinkedIn</a></li>
+                <li><a href=" # ">Twitter</a></li>
+                <li><a href=" # ">Telegram</a></li>
+                <li><a href=" # ">watsapp</a></li>
+            </ul>
+        </div>
+        <p>
+            contact us @ &quot;joychinwenduibeh93@gmail.com &quot;<br /> &copy;joy </p>
+        </p>
+    </footer>
+</body>
+
+</html>
